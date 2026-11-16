@@ -1,0 +1,43 @@
+name: jardineria_gonzalo
+description: "Aplicación móvil para empresa de jardinería con diseño minimalista, moderno y libre de fatiga visual."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Base de datos local SQLite
+  sqflite: ^2.4.1
+  path: ^1.9.0
+
+  # Formateo de fechas y monedas
+  intl: ^0.20.1
+
+  # Notificaciones locales y alarmas
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  flutter_timezone: ^5.1.1
+
+  # Tipografía moderna y limpia
+  google_fonts: ^6.2.1
+
+  # Integraciones nativas (Mapas, llamadas, URLs)
+  url_launcher: ^6.3.1
+
+  # Iconos
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.25.8
+  flutter_lints: ^5.0.0
+  sqflite_common_ffi: ^2.3.4+4
+
+flutter:
+  uses-material-design: true
